@@ -67,6 +67,8 @@ a{
 #question, #espèces, #entretien, #rempotage, #culture, #arrosage, #multiplier{
     width: 33.3%;
     height: 20em;
+    padding: 7em 1em 0 1em;
+    text-align: center;
 }
 
 #question, #entretien, #rempotage, #arrosage, #multiplier{
@@ -113,6 +115,14 @@ a{
     background-color: darkmagenta;
 }
 
+.case i{
+    font-size: 4em;
+    margin: 0 1.5em 0.5em 1.5em;
+}
+
+.case span{
+    font-size: 120%;
+}
 
 #photo{
     width: 40%;
