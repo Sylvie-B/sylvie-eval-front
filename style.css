@@ -159,8 +159,17 @@ a{
     text-align: right;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
+    #container{
+        width: 100%;
+    }
 
+    .boutonResume, .boutonContact{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 400px){
     #question{
         display: none;
     }
@@ -172,10 +181,6 @@ a{
 
     #titre{
         width: 100%;
-    }
-
-    .boutonResume, .boutonContact{
-        width: 40%;
     }
 
     #espèces, #entretien, #rempotage, #culture, #arrosage, #multiplier {
@@ -208,5 +213,4 @@ a{
     .doubleF{
         margin-top: 12em;
     }
-
 }
