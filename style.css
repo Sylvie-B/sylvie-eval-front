@@ -160,11 +160,35 @@ a{
 }
 
 @media screen and (max-width: 400px){
+
     #question{
         display: none;
     }
+
+    #square{
+        width: 100%;
+    }
+
     #titre{
         width: 100%;
     }
 
+    .boutonResume, .boutonContact{
+        width: 40%;
+    }
+
+    #espèces, #entretien, #rempotage, #culture, #arrosage, #multiplier {
+        width: 50%;
+    }
+
+    #photo{
+        display: block;
+        margin: -4px 0 0 0;
+        height: 50%;
+        width: auto;
+    }
+
+    #button-photo{
+        height: 50%;
+    }
 }
