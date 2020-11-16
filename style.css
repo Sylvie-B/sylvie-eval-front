@@ -32,7 +32,7 @@ a{
 
 #square{
     width: 60%;
-    height: 60em;
+    height: 60%;
     background: lightgrey;
 }
 
@@ -43,7 +43,6 @@ a{
     padding: 1em;
 }
 
-/*revoir la police*/
  #phalae{
      padding: 1em 0 1em 0;
      margin-top: 1em;
@@ -132,6 +131,7 @@ a{
     background-size: cover;
     background-position: center;
     margin-left: -4px;
+    margin-bottom: 3px;
 }
 
 #tripleP, #flecheLeft, #flecheRight{
@@ -167,6 +167,7 @@ a{
 
     #square{
         width: 100%;
+
     }
 
     #titre{
@@ -181,14 +182,31 @@ a{
         width: 50%;
     }
 
+    #espèces, #rempotage{
+        margin: -1.5px -1.5px -1.5px 0;
+    }
+
+    #entretien, #culture{
+        margin: -1.5px 0 -1.5px -1.5px;
+    }
+
+    #arrosage{
+        margin: -1.5px -1.5px 0 0;
+    }
+
+    #multiplier{
+        margin: -1.5px 0 0 -1.5px;
+    }
+
     #photo{
         display: block;
         margin: -4px 0 0 0;
-        height: 50%;
+        height: 30em;
         width: auto;
     }
 
-    #button-photo{
-        height: 50%;
+    .doubleF{
+        margin-top: 12em;
     }
+
 }
